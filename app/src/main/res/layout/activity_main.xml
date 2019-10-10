@@ -19,8 +19,18 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
         android:text="Wooooo!"
-        tools:layout_editor_absoluteX="161dp"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="@string/greeting"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="165dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
